@@ -1,0 +1,147 @@
+
+body{
+    background-color:#9fb8ad;
+}
+h2{
+    text-decoration: underline;
+
+}
+li{
+    font-family: 'Bree Serif', serif;
+    font-size: 20px;
+}
+.logo_img{
+    float: left;
+}
+.logo{
+    text-align: center;
+    color:azure;
+    font-family: 'Akaya Telivigala', cursive;
+}
+.sectn div:hover{
+    background-color: #c8c6a7;
+    font-family:cursive;
+
+}
+.sect li:hover{
+    background-color: #c8c6a7;
+    font-family:cursive;
+
+
+}
+section{
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+    
+}
+.first,.second,.third{
+    padding: 15px 20px 15px 20px;
+}
+
+.foodie{
+    float: left;
+}
+/*MAX-WIDTH TO IMAGE*/
+img{
+    max-width: 100%;
+    max-height: 400px;
+}
+h1,h2,h3{
+    
+    margin: auto;
+    padding: 15px 20px 15px 20px;
+}
+p{
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;font-family: 'Bree Serif', serif;
+    padding-left: 30px;
+    margin:auto;
+}
+p,nav{
+    padding-left: 25px;
+}
+p::first-letter {
+    color: #e4fbff;
+    font: size 3rem;
+  }
+.intro,footer{
+    background-color: #383e56;
+    margin: auto;
+    padding: 15px 20px 15px 20px;
+}
+footer{
+    padding-bottom: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color:azure;
+    padding: 5px;
+}
+a:active{
+    color: #f5c0c0;
+}
+a:hover{
+    background-color:#435560;
+}
+a:visited{
+    color: palevioletred;
+}
+.sectn{
+    margin: auto;
+    padding: 10px 20px;
+}
+#social-media{
+    padding: 50px 0;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .icon{
+      padding: 10px 30px;
+      margin: auto;
+  }
+  .comment{
+     
+    background-color:#383e56;
+    color: azure;
+    width: 400px;
+    height: 150px;
+    border: 1px dotted black;
+    overflow:scroll;
+    text-align: left;
+  }
+  textarea{ 
+    position:relative;
+      display: inline-block;
+    background-color:#383e56;
+    color: azure;
+    width: 500px;
+    height: 150px;
+    overflow:auto;
+    align-content: left;
+  }
+  .btn{
+      position: absolute;
+      margin-left: 400px;
+      background-color: #383e56;
+      border: 2px solid #555555;
+      border-radius: 20%;
+      color: azure;
+      width: auto;
+      height: auto;
+      padding: 16px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+
+  }
+  .btn:hover {
+    background-color: #f5c0c0;
+    color: white;
+  }
+  
